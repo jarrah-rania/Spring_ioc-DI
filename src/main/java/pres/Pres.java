@@ -8,7 +8,7 @@ public class Pres {
      {
          DaoImpl dao = new DaoImpl();
          MetierImpl metier= new MetierImpl(dao);
-       //  metier.setDao(dao);
+       //  metier.setDao(dao); we don't use this injection it is not recommanded
          System.out.print(metier.calcul());
      }
 }
