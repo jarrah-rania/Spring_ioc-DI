@@ -3,7 +3,7 @@ package metier;
 import dao.IDao;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-//quand il s'agit d'un component qui concerne la couche métier on la nomme Service
+
 @Service("metier")
 public class MetierImpl  implements IMetier{
  private IDao dao;
