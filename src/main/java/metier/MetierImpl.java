@@ -16,7 +16,7 @@ public class MetierImpl  implements IMetier{
     public double calcul() {
         double t= dao.getData();
         double res=t * 43/3;
-    return t;
+    return res;
 }
 
   //  public void setDao(IDao dao) {
